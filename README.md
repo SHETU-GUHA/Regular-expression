@@ -8,3 +8,6 @@ Inputs: assumed to be sequences of symbols selected from a finite set I of input
 Outputs: sequences of symbols selected from a finite set Z. Namely, set Z is the set {y1, y2, y3 ... ym} where m is the number of outputs.
 States: finite set Q, whose definition depends on the type of automaton.
 
+Aho–Corasick algorithm: In computer science, the Aho–Corasick algorithm is a string-searching algorithm invented by Alfred V. Aho and Margaret J. Corasick. It is a kind of dictionary-matching algorithm that locates elements of a finite set of strings (the "dictionary") within an input text. It matches all strings simultaneously. The complexity of the algorithm is linear in the length of the strings plus the length of the searched text plus the number of output matches. Note that because all matches are found, there can be a quadratic number of matches if every substring matches (e.g. dictionary = a, aa, aaa, aaaa and input string is aaaa).
+
+
